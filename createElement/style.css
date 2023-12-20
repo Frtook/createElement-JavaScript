@@ -1,0 +1,42 @@
+form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0;
+}
+form input {
+  width: 240px;
+  padding: 10px;
+  margin: 10px 0;
+
+}
+
+form select{
+  width: 240px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form .create {
+  background-color: darkcyan;
+  color: white;
+
+}
+
+.results{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: space-around;
+}
+.results div ,
+.results section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  color: white;
+  width: 200px;
+  height: 50px;
+}
